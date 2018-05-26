@@ -1,6 +1,5 @@
-import { resolveSource } from './utils'
+import { resolveSource, bindActionCreators } from './utils'
 import React from 'react'
-import { bindActionCreators } from './utils'
 
 export const { Provider, Consumer } = React.createContext(null)
 

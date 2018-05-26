@@ -25,7 +25,7 @@ npm i smox
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './app.js'
-import { Store, Provider } from '../index'
+import { Store, Provider } from 'smox'
 
 const state = {
   count: 2
@@ -56,7 +56,7 @@ ReactDOM.render(
 then 
 ```javascript
 import React from 'react'
-import { withStore } from '../index'
+import { withStore } from 'smox'
 
 @withStore
 class App extends React.Component {
