@@ -55,11 +55,12 @@ ReactDOM.render(
 ```
 
 # API
-store.state
-store.actions
-store.dispatch(action)
-store.subscribe(sub)
-withStore
+* store.state
+* store.actions
+* store.dispatch(action)
+* store.subscribe(sub)
+
+* withStore
 
 ## demo(last verson)
 
