@@ -53,6 +53,25 @@ ReactDOM.render(
   document.getElementById('root')
 )
 ```
+then 
+```javascript
+import React from 'react'
+import { withStore } from '../index'
+
+@withStore
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <h1>Now:{this.props.count}</h1>
+        <button onClick={this.props.add}>ADD+</button>
+      </div>
+    )
+  }
+}
+
+export default App
+```
 
 # API
 * store.state
