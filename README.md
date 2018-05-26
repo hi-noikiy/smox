@@ -9,6 +9,8 @@
 
 ## start
 
+p.s.不知为啥npm发布不了，所以以下安装没用，准备明天再试试
+
 ```shell
 yarn add smox
 ```
