@@ -5,7 +5,7 @@
 
 # smox
 
-> A state manager based on New context api which has similar and simple api with Redux (or Vuex).
+> Just 1kB state management based on New context api which has similar but simple api with Redux (or Vuex).
 
 ## start
 
